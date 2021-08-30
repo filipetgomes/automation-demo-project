@@ -1,51 +1,1329 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="50" passed="50" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-07T15:35:23 BRT" name="Default suite" finished-at="2021-06-07T15:35:30 BRT" duration-ms="6367">
+  <suite started-at="2021-08-30T11:04:46 BRT" name="Default suite" finished-at="2021-08-30T11:05:34 BRT" duration-ms="48096">
     <groups>
     </groups>
-    <test started-at="2021-06-07T15:35:23 BRT" name="Default test" finished-at="2021-06-07T15:35:30 BRT" duration-ms="6367">
-      <class name="com.springselenium.automation.test.GoogleTest">
-        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.springselenium.automation.test.GoogleTest@476b0ae6]" started-at="2021-06-07T15:35:23 BRT" name="springTestContextBeforeTestClass" finished-at="2021-06-07T15:35:23 BRT" duration-ms="8" status="PASS">
+    <test started-at="2021-08-30T11:04:46 BRT" name="Default test" finished-at="2021-08-30T11:05:34 BRT" duration-ms="48096">
+      <class name="com.springselenium.automation.test.BomGourmetTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:46 BRT" name="springTestContextBeforeTestClass" finished-at="2021-08-30T11:04:46 BRT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.springselenium.automation.test.GoogleTest@476b0ae6]" started-at="2021-06-07T15:35:23 BRT" name="springTestContextPrepareTestInstance" finished-at="2021-06-07T15:35:28 BRT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="4762" status="PASS">
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:46 BRT" name="springTestContextPrepareTestInstance" finished-at="2021-08-30T11:04:49 BRT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="2746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.GoogleTest@476b0ae6]" started-at="2021-06-07T15:35:28 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-06-07T15:35:28 BRT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:49 BRT" name="beforeClass" finished-at="2021-08-30T11:04:51 BRT" duration-ms="2662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:51 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:51 BRT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.springselenium.automation.test.GoogleTest.googleTest()]]>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method signature="googleTest()[pri:0, instance:com.springselenium.automation.test.GoogleTest@476b0ae6]" started-at="2021-06-07T15:35:28 BRT" name="googleTest" finished-at="2021-06-07T15:35:30 BRT" duration-ms="1570" status="PASS">
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:51 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:53 BRT" duration-ms="1053" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleTest -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.GoogleTest@476b0ae6]" started-at="2021-06-07T15:35:30 BRT" name="springTestContextAfterTestMethod" finished-at="2021-06-07T15:35:30 BRT" duration-ms="1" status="PASS">
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:53 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:53 BRT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.springselenium.automation.test.GoogleTest.googleTest()]]>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.springselenium.automation.test.GoogleTest@476b0ae6]" started-at="2021-06-07T15:35:30 BRT" name="springTestContextAfterTestClass" finished-at="2021-06-07T15:35:30 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:53 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:53 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:53 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:53 BRT" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:53 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:53 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:53 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:53 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:53 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:54 BRT" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:54 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:54 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:54 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:54 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:54 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:55 BRT" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:55 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:55 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:55 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:55 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:55 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:55 BRT" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:55 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:55 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:55 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:56 BRT" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:55 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:55 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:56 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:56 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:56 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:56 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:56 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:57 BRT" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:57 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:57 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:57 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:58 BRT" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:57 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:57 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:58 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:58 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:58 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:58 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:58 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:58 BRT" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:58 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:58 BRT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:58 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:58 BRT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:58 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:04:59 BRT" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:59 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:04:59 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:59 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:04:59 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:04:59 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:00 BRT" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:00 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:00 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:00 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:00 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:00 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:01 BRT" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:01 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:01 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:01 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:01 BRT" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:01 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:01 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:01 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:01 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:01 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:02 BRT" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:01 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:01 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:02 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:02 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:02 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:02 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:02 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:03 BRT" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:03 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:03 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:03 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:03 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:03 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:03 BRT" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:03 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:03 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:03 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:04 BRT" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:03 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:03 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:04 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:04 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:04 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:04 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:04 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:05 BRT" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:05 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:05 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:05 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:05 BRT" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:05 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:05 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:05 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:05 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:05 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:05 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:05 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:06 BRT" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:06 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:06 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:06 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:07 BRT" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:06 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:06 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:07 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:08 BRT" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:07 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:07 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:07 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:07 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:08 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:08 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:08 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:08 BRT" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:08 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:08 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:08 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:08 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:08 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:08 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:08 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:09 BRT" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:09 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:09 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:09 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:09 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:09 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:10 BRT" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:10 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:10 BRT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:10 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:10 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:10 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:11 BRT" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:11 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:11 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:11 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:11 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:11 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:12 BRT" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:12 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:12 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:12 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:12 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:12 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:12 BRT" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:12 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:12 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:12 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:12 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:12 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:13 BRT" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:13 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:13 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:13 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:13 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:13 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:14 BRT" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:14 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:14 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:14 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:14 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:14 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:15 BRT" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:15 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:15 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:15 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:15 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:15 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:16 BRT" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:16 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:16 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:16 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:16 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:16 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:17 BRT" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:17 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:17 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:17 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:17 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:17 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:18 BRT" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:18 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:18 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:18 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:18 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:18 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:19 BRT" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:19 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:19 BRT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:19 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:20 BRT" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:19 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:19 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:20 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:20 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:20 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:20 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:20 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:21 BRT" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:21 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:21 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:21 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:21 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:21 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:23 BRT" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:23 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:23 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:23 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:23 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:23 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:24 BRT" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:24 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:24 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:24 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:24 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:24 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:25 BRT" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:25 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:25 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:25 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:25 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:25 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:26 BRT" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:26 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:26 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:26 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:26 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:26 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:27 BRT" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:27 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:27 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:27 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:27 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:27 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:28 BRT" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:28 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:28 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:28 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:28 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:28 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:29 BRT" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:29 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:29 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:29 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:29 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:29 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:30 BRT" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:30 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:30 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:30 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:30 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:30 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:31 BRT" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:31 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:31 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:31 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:31 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:31 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:32 BRT" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:32 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:32 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:32 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:32 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:32 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:32 BRT" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:32 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:32 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:32 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:32 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:32 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:33 BRT" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:33 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:33 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="bomGourmetVote()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:33 BRT" name="bomGourmetVote" finished-at="2021-08-30T11:05:34 BRT" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bomGourmetVote -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:33 BRT" name="springTestContextBeforeTestMethod" finished-at="2021-08-30T11:05:33 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:34 BRT" name="springTestContextAfterTestMethod" finished-at="2021-08-30T11:05:34 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springselenium.automation.test.BomGourmetTest.bomGourmetVote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.springselenium.automation.test.BomGourmetTest@5bd82fed]" started-at="2021-08-30T11:05:34 BRT" name="springTestContextAfterTestClass" finished-at="2021-08-30T11:05:34 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->
-      </class> <!-- com.springselenium.automation.test.GoogleTest -->
+      </class> <!-- com.springselenium.automation.test.BomGourmetTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

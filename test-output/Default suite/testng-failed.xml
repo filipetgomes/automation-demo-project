@@ -3,16 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.springselenium.automation.test.GoogleTest">
+      <class name="com.springselenium.automation.test.BomGourmetTest">
         <methods>
           <include name="springTestContextBeforeTestClass"/>
-          <include name="googleTest"/>
+          <include name="beforeClass"/>
+          <include name="theCrimsRobAndNightLife"/>
           <include name="springTestContextPrepareTestInstance"/>
           <include name="springTestContextAfterTestClass"/>
           <include name="springTestContextBeforeTestMethod"/>
           <include name="springTestContextAfterTestMethod"/>
         </methods>
-      </class> <!-- com.springselenium.automation.test.GoogleTest -->
+      </class> <!-- com.springselenium.automation.test.BomGourmetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
